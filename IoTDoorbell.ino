@@ -7,11 +7,11 @@
 #include <ArduinoJson.h>
 #include <Wire.h>
 //Reemplazar con los datos de tu red wifi
-const char* ssid = "TIGO1B3902";
-const char* password = "JD7DZ17H";
-String idChat = "1173462060";//ID_Chat se obtiene de telegram
+const char* ssid = "xxxxxxxxxxx";
+const char* password = "xxxxxxxxxxxxx";
+String idChat = "xxxxxxxxxxx";//ID_Chat se obtiene de telegram
 //Token de Telegram BOT se obtenienen desde Botfather en telegram
-String token = "5146033626:AAEasV42PJ2xJJZ1YBuQDMCqKigTZ__X7cQ";
+String token = "xxxxxxxxxxxxxxxxxxxx";
 bool envioFoto = false;
 WiFiClientSecure clientTCP;
 UniversalTelegramBot bot(token, clientTCP);
